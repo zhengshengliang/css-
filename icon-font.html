@@ -12,11 +12,21 @@
       url('//at.alicdn.com/t/font_794771_v8cokuhr4wm.ttf') format('truetype'),
       url('//at.alicdn.com/t/font_794771_v8cokuhr4wm.svg#iconfont') format('svg');
     }
+    /*
+       或者通过伪类也可以
+    */
+    .xxx::before { 
+      content: '\e60a'
+    }
   </style>
 </head>
 <body>
   <div style="font-family: xxx">
     &#xe627; &#xe60a; &#xe65b;
+  </div>
+  
+  <div class=xxx style="font-family: xxx">
+    
   </div>
 </body>
 </html>
