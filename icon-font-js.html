@@ -15,13 +15,21 @@
     }
 </style>
 </head>
+<!-- 
+SVG: 
+1. 是由xml编写的矢量文件，当你放大矢量图片的时候，不会出现失真和锯齿，PNG会
+2. SVG可能会比较消耗性能，因为他的绘制过程是由xml文件中的点位置决定的
+3. 文件很小
+4. 可以自定义大小，颜色，描边等等
+-->  
+  
 <body>
   <!-- 第三步: use #icon-qq -->
-  <svg class="icon" aria-hidden="true">
+  <svg class="icon" aria-hidden="true" fill>
     <use xlink:href="#icon-qq"></use> 
   </svg>
-  <!-- 可以自定义宽高与描边 -->
-  <svg style="width: 1000px; height: 1000px; stroke: red; stroke-width: 10px" class="icon" aria-hidden="true">
+  <!-- 可以自定义颜色、宽高与描边. -->
+  <svg style="fill: red; width: 100px; height: 100px; stroke: red; stroke-width: 10px" class="icon" aria-hidden="true">
     <use xlink:href="#icon-weibo"></use>
   </svg>
   <svg class="icon" aria-hidden="true">
