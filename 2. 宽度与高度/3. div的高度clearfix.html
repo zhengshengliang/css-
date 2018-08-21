@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+     span {
+       border: 1px solid red;
+     }
+    
+    ul {
+      border: 1px solid green;
+    }
+    
+    ul > li {
+      display: inline-block;
+      border: 1px solid red;
+      float: left;
+    }
+    .clearfix::after {
+      content: '';
+      display: block;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <span>1</span>
+  <span>2</span>
+  1
+  2
+  
+  <ul class="clearfix">
+    <li>选项1</li>
+    <li>选项2</li>
+    <li>选项3</li>
+    <li>选项4</li>
+    <li>选项5</li>
+    <li>选项6</li>
+  </ul>
+</body>
+</html>
